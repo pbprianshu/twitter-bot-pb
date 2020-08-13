@@ -4,7 +4,8 @@
   "description": "Twitter Bot",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Prianshu Bhaskar <prianshubhaskar@gmail.com>",
   "license": "MIT",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/pbprianshu/twitter-bot-pb/issues"
   },
-  "homepage": "https://github.com/pbprianshu/twitter-bot-pb#readme"
+  "homepage": "https://github.com/pbprianshu/twitter-bot-pb#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "twit": "^2.2.11"
+  }
 }
